@@ -30,6 +30,8 @@ playwright-report/
 test-results/
 
 # Office / binary deliverables
+*.docx
+*.doc
 *.pptx
 *.pdf
 
