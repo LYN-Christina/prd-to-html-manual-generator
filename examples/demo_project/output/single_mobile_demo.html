@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>单移动端操作页示例</title>
+  <style>
+    :root {
+      --blue: #1456b8;
+      --deep: #0f2747;
+      --muted: #6b7280;
+      --bg: #eef3f8;
+      --card: #ffffff;
+      --line: #d8e1ec;
+      --soft: #f2f7ff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: #1f2937;
+      font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans CJK SC", Arial, sans-serif;
+    }
+    .page {
+      width: 1600px;
+      height: 900px;
+      margin: 28px auto;
+      padding: 48px 56px;
+      background: linear-gradient(180deg, #fff 0%, #f8fbff 100%);
+      border-radius: 24px;
+      box-shadow: 0 12px 36px rgba(15, 39, 71, .12);
+      position: relative;
+      overflow: hidden;
+    }
+    .page::before {
+      content: "";
+      position: absolute;
+      inset: 0 0 auto 0;
+      height: 9px;
+      background: linear-gradient(90deg, var(--blue), #26a7df);
+    }
+    h1 {
+      margin: 0;
+      color: var(--deep);
+      font-size: 34px;
+      line-height: 1.25;
+    }
+    .role {
+      position: absolute;
+      top: 46px;
+      right: 56px;
+      padding: 8px 18px;
+      border-radius: 999px;
+      color: var(--blue);
+      background: #eaf2ff;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    .mobile-layout {
+      margin-top: 28px;
+      height: 640px;
+      display: grid;
+      grid-template-columns: 520px 1fr;
+      gap: 34px;
+      align-items: stretch;
+    }
+    .phone-card {
+      background: #f7fafc;
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-width: 0;
+    }
+    .shot-label {
+      width: 100%;
+      color: var(--muted);
+      font-size: 18px;
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+    .phone-card img {
+      width: auto;
+      max-width: 100%;
+      height: 560px;
+      object-fit: contain;
+      border: 10px solid #111827;
+      border-radius: 34px;
+      background: white;
+      box-shadow: 0 12px 30px rgba(17, 24, 39, .16);
+    }
+    .explain-card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 22px;
+      padding: 34px 38px;
+      box-shadow: 0 8px 24px rgba(15, 39, 71, .06);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .explain-card h2 {
+      margin: 0 0 20px 0;
+      color: var(--deep);
+      font-size: 30px;
+    }
+    .explain-card p {
+      margin: 0 0 18px 0;
+      color: #344054;
+      font-size: 24px;
+      line-height: 1.65;
+    }
+    .hint {
+      margin-top: 14px;
+      padding: 18px 20px;
+      border-radius: 16px;
+      background: #eef6ff;
+      border-left: 5px solid var(--blue);
+      color: #1e3a5f;
+      font-size: 21px;
+      line-height: 1.55;
+    }
+    .steps {
+      position: absolute;
+      left: 56px;
+      right: 56px;
+      bottom: 38px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+    }
+    .step {
+      min-height: 74px;
+      padding: 14px 16px;
+      background: var(--soft);
+      border-left: 5px solid var(--blue);
+      border-radius: 14px;
+      font-size: 18px;
+      line-height: 1.45;
+    }
+    .footer {
+      position: absolute;
+      left: 56px;
+      bottom: 14px;
+      color: #98a2b3;
+      font-size: 16px;
+    }
+    @media print {
+      body { background: white; }
+      .page {
+        margin: 0;
+        width: 100vw;
+        height: 56.25vw;
+        max-height: 100vh;
+        box-shadow: none;
+        border-radius: 0;
+        break-after: page;
+      }
+      @page { size: 16in 9in; margin: 0; }
+    }
+  </style>
+</head>
+<body>
+  <section class="page">
+    <span class="role">申请人｜移动端</span>
+    <h1>新增申请｜单移动端操作页示例</h1>
+    <div class="mobile-layout">
+      <div class="phone-card">
+        <div class="shot-label">移动端截图</div>
+        <img src="../screenshots/mobile/create_apply.svg" alt="Mobile screenshot" />
+      </div>
+      <div class="explain-card">
+        <h2>页面说明</h2>
+        <p>单移动端项目适合用于小程序、App 或移动工作台培训。页面主体以手机截图为中心，旁边补充关键字段、注意事项和操作目标。</p>
+        <div class="hint">建议截图保持完整竖屏比例，优先展示页面主体内容；如有弹窗或确认态，可以单独做下一页。</div>
+      </div>
+    </div>
+    <div class="steps">
+      <div class="step">1. 进入移动端首页。</div>
+      <div class="step">2. 点击发起申请入口。</div>
+      <div class="step">3. 填写必填字段并核对数据。</div>
+      <div class="step">4. 提交后查看状态变化。</div>
+    </div>
+    <div class="footer">Single mobile operation page preview</div>
+  </section>
+</body>
+</html>
