@@ -1,0 +1,8 @@
+﻿slide_id,scene_id,role,pc_required,mobile_required,pc_filename,mobile_filename,required_data_state,privacy_notes,status
+S005,create,申请人,Y,Y,screenshots/pc/create.png,screenshots/mobile/create.png,使用 fake 或测试数据；状态需与页面主题一致,不要出现真实客户、真实医院、真实价格、真实账号,todo
+S006,view_list,申请人,Y,Y,screenshots/pc/view_list.png,screenshots/mobile/view_list.png,使用 fake 或测试数据；状态需与页面主题一致,不要出现真实客户、真实医院、真实价格、真实账号,todo
+S007,view_detail,申请人,Y,Y,screenshots/pc/view_detail.png,screenshots/mobile/view_detail.png,使用 fake 或测试数据；状态需与页面主题一致,不要出现真实客户、真实医院、真实价格、真实账号,todo
+S008,approve,审批人,Y,Y,screenshots/pc/approve.png,screenshots/mobile/approve.png,使用 fake 或测试数据；状态需与页面主题一致,不要出现真实客户、真实医院、真实价格、真实账号,todo
+S009,approve,审批人,Y,Y,screenshots/pc/approve.png,screenshots/mobile/approve.png,使用 fake 或测试数据；状态需与页面主题一致,不要出现真实客户、真实医院、真实价格、真实账号,todo
+S010,feedback,申请人,Y,Y,screenshots/pc/feedback.png,screenshots/mobile/feedback.png,使用 fake 或测试数据；状态需与页面主题一致,不要出现真实客户、真实医院、真实价格、真实账号,todo
+S011,message,相关角色,Y,Y,screenshots/pc/message.png,screenshots/mobile/message.png,使用 fake 或测试数据；状态需与页面主题一致,不要出现真实客户、真实医院、真实价格、真实账号,todo

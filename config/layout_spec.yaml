@@ -1,0 +1,33 @@
+page:
+  size: "16:9"
+  width_px: 1600
+  height_px: 900
+  language: "zh-CN"
+  style: "medical_b2b_training"
+
+operation_dual_screen:
+  title_area: "top"
+  role_tag_area: "top_right"
+  pc_area:
+    side: "left"
+    width_percent: 60
+    note: "展示网页主体内容，不包含浏览器地址栏和系统窗口标题"
+  mobile_area:
+    side: "right"
+    width_percent: 26
+    note: "保持手机竖屏比例，可添加手机外框"
+  steps_area:
+    side: "bottom"
+    max_steps: 5
+
+allowed_slide_types:
+  - cover
+  - objective
+  - background
+  - role_overview
+  - process_overview
+  - rule_explanation
+  - status_explanation
+  - operation_dual_screen
+  - faq
+  - summary

@@ -1,0 +1,15 @@
+rules:
+  - id: no_password
+    description: "不得在代码、日志、截图文件名、HTML 中输出密码。"
+  - id: no_real_customer
+    description: "公开 demo 中不得出现真实客户、医院、人员、价格、手机号、邮箱。"
+  - id: no_session
+    description: "不得提交浏览器会话、cookie、token、localStorage。"
+  - id: fake_demo_only
+    description: "examples 目录只能放虚拟数据。"
+
+placeholder_terms:
+  hospital: "示例医院"
+  product: "示例产品"
+  user: "示例用户"
+  price: "100元"

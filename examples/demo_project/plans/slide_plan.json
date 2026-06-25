@@ -1,0 +1,185 @@
+[
+  {
+    "slide_id": "S001",
+    "slide_title": "示例医疗 B 端系统｜价格审批模块",
+    "slide_type": "cover",
+    "target_role": "全员",
+    "learning_goal": "了解本操作手册适用范围。",
+    "key_steps": [],
+    "needs_pm_confirmation": false
+  },
+  {
+    "slide_id": "S002",
+    "slide_title": "培训目标与适用范围",
+    "slide_type": "objective",
+    "target_role": "全员",
+    "learning_goal": "理解本模块解决的问题和培训边界。",
+    "key_steps": [],
+    "needs_pm_confirmation": false
+  },
+  {
+    "slide_id": "S003",
+    "slide_title": "角色与权限说明",
+    "slide_type": "role_overview",
+    "target_role": "全员",
+    "learning_goal": "理解不同角色在流程中的职责。",
+    "key_steps": [],
+    "needs_pm_confirmation": false
+  },
+  {
+    "slide_id": "S004",
+    "slide_title": "业务流程总览",
+    "slide_type": "process_overview",
+    "target_role": "全员",
+    "learning_goal": "掌握从提交到审批完成的完整流程。",
+    "key_steps": [],
+    "needs_pm_confirmation": false
+  },
+  {
+    "slide_id": "S005",
+    "scene_id": "create",
+    "slide_title": "新增申请",
+    "slide_type": "operation_dual_screen",
+    "target_role": "申请人",
+    "learning_goal": "掌握「新增申请」的关键操作。",
+    "key_steps": [
+      "进入新增页面",
+      "填写基础信息",
+      "确认业务数据",
+      "提交申请"
+    ],
+    "pc_screenshot_required": true,
+    "mobile_screenshot_required": true,
+    "pc_expected_page": "PC 端：新增申请相关页面",
+    "mobile_expected_page": "移动端：新增申请相关页面或状态页",
+    "needs_pm_confirmation": true
+  },
+  {
+    "slide_id": "S006",
+    "scene_id": "view_list",
+    "slide_title": "查看申请列表",
+    "slide_type": "operation_dual_screen",
+    "target_role": "申请人",
+    "learning_goal": "掌握「查看申请列表」的关键操作。",
+    "key_steps": [
+      "进入我的申请",
+      "按状态筛选",
+      "查看列表字段"
+    ],
+    "pc_screenshot_required": true,
+    "mobile_screenshot_required": true,
+    "pc_expected_page": "PC 端：查看申请列表相关页面",
+    "mobile_expected_page": "移动端：查看申请列表相关页面或状态页",
+    "needs_pm_confirmation": true
+  },
+  {
+    "slide_id": "S007",
+    "scene_id": "view_detail",
+    "slide_title": "查看申请详情",
+    "slide_type": "operation_dual_screen",
+    "target_role": "申请人",
+    "learning_goal": "掌握「查看申请详情」的关键操作。",
+    "key_steps": [
+      "打开申请详情",
+      "核对基础信息",
+      "查看审批记录"
+    ],
+    "pc_screenshot_required": true,
+    "mobile_screenshot_required": true,
+    "pc_expected_page": "PC 端：查看申请详情相关页面",
+    "mobile_expected_page": "移动端：查看申请详情相关页面或状态页",
+    "needs_pm_confirmation": true
+  },
+  {
+    "slide_id": "S008",
+    "scene_id": "approve",
+    "slide_title": "审批处理",
+    "slide_type": "operation_dual_screen",
+    "target_role": "审批人",
+    "learning_goal": "掌握「审批处理」的关键操作。",
+    "key_steps": [
+      "进入待审批",
+      "查看申请详情",
+      "选择通过/拒绝/转签",
+      "填写意见"
+    ],
+    "pc_screenshot_required": true,
+    "mobile_screenshot_required": true,
+    "pc_expected_page": "PC 端：审批处理相关页面",
+    "mobile_expected_page": "移动端：审批处理相关页面或状态页",
+    "needs_pm_confirmation": true
+  },
+  {
+    "slide_id": "S009",
+    "scene_id": "approve",
+    "slide_title": "批量审批",
+    "slide_type": "operation_dual_screen",
+    "target_role": "审批人",
+    "learning_goal": "掌握「批量审批」的关键操作。",
+    "key_steps": [
+      "选择多条记录",
+      "打开批量审批",
+      "填写必填意见",
+      "提交处理"
+    ],
+    "pc_screenshot_required": true,
+    "mobile_screenshot_required": true,
+    "pc_expected_page": "PC 端：批量审批相关页面",
+    "mobile_expected_page": "移动端：批量审批相关页面或状态页",
+    "needs_pm_confirmation": true
+  },
+  {
+    "slide_id": "S010",
+    "scene_id": "feedback",
+    "slide_title": "执行反馈",
+    "slide_type": "operation_dual_screen",
+    "target_role": "申请人",
+    "learning_goal": "掌握「执行反馈」的关键操作。",
+    "key_steps": [
+      "查看已通过申请",
+      "选择使用/废弃/延期",
+      "确认反馈结果"
+    ],
+    "pc_screenshot_required": true,
+    "mobile_screenshot_required": true,
+    "pc_expected_page": "PC 端：执行反馈相关页面",
+    "mobile_expected_page": "移动端：执行反馈相关页面或状态页",
+    "needs_pm_confirmation": true
+  },
+  {
+    "slide_id": "S011",
+    "scene_id": "message",
+    "slide_title": "消息通知",
+    "slide_type": "operation_dual_screen",
+    "target_role": "相关角色",
+    "learning_goal": "掌握「消息通知」的关键操作。",
+    "key_steps": [
+      "接收通知",
+      "打开消息详情",
+      "跳转查看工单"
+    ],
+    "pc_screenshot_required": true,
+    "mobile_screenshot_required": true,
+    "pc_expected_page": "PC 端：消息通知相关页面",
+    "mobile_expected_page": "移动端：消息通知相关页面或状态页",
+    "needs_pm_confirmation": true
+  },
+  {
+    "slide_id": "S012",
+    "slide_title": "常见问题 FAQ",
+    "slide_type": "faq",
+    "target_role": "全员",
+    "learning_goal": "快速定位常见操作问题。",
+    "key_steps": [],
+    "needs_pm_confirmation": true
+  },
+  {
+    "slide_id": "S013",
+    "slide_title": "培训总结",
+    "slide_type": "summary",
+    "target_role": "全员",
+    "learning_goal": "回顾流程、角色和上线支持方式。",
+    "key_steps": [],
+    "needs_pm_confirmation": false
+  }
+]

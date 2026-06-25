@@ -1,0 +1,23 @@
+project:
+  name: "示例 B 端产品"
+  module: "示例审批模块"
+  language: "zh-CN"
+
+workflow:
+  operation_layout: "dual_screen"
+  pc_side: "left"
+  mobile_side: "right"
+  mobile_capture_mode: "manual_upload"
+
+paths:
+  prd: "input/PRD.docx"
+  pc_screenshots: "screenshots/pc"
+  mobile_screenshots: "screenshots/mobile"
+  plans: "plans"
+  reports: "reports"
+  output: "output"
+
+privacy:
+  forbid_real_accounts: true
+  forbid_real_customer_data: true
+  forbid_password_in_output: true

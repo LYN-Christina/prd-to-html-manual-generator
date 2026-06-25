@@ -1,0 +1,40 @@
+.env
+.env.*
+!.env.example
+
+# Secrets / browser sessions
+.auth/
+storage_state/
+
+# User inputs and generated outputs at repository root
+/input/
+/screenshots/
+/manual_screenshots/
+/output/
+/plans/
+/reports/
+/logs/
+/tmp/
+*.trace.zip
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Node / browser tooling, if added later
+node_modules/
+playwright-report/
+test-results/
+
+# Office / binary deliverables
+*.pptx
+*.pdf
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
